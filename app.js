@@ -11,6 +11,7 @@
 //variables
 let listaAmigos = [];
 let numeroMaximo = 0;
+let amigoSorteado = 0;
 let lista=document.querySelector('#listaAmigos');
 let result = document.querySelector('#resultado');
 
@@ -43,17 +44,12 @@ function actualizarLista(){
 //sortear amigo
 function sortearAmigo(){
     numeroMaximo = listaAmigos.length;
-    let amigoSorteado = Math.floor(Math.random()*numeroMaximo);
-    console.log('amigo sorteado: '+amigoSorteado);
+    amigoSorteado = Math.floor(Math.random()*numeroMaximo);
+    //console.log('amigo sorteado: '+amigoSorteado);
     if (numeroMaximo==0){
         alert('Agrega un amigo');
     }else{
         //alert('AMIGO SORTEADO' +listaAmigos[amigoSorteado]);
         result.innerHTML = 'El amigo secreto es ' + listaAmigos[amigoSorteado];
     }
-}
-
-//limpiar caja
-function limpiarCaja() {
-    document.querySelector('#amigo').value = '';
 }
