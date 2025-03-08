@@ -11,8 +11,9 @@
 //variables
 let listaAmigos = [];
 let numeroMaximo = 0;
-let lista=document.querySelector("#listaAmigos");
-let result=document.querySelector("#resultado");
+let lista=document.querySelector('#listaAmigos');
+let result = document.querySelector('#resultado');
+
 //agregar amigo
 function agregarAmigo(){
     let amigo = document.querySelector('#amigo').value;
@@ -47,8 +48,8 @@ function sortearAmigo(){
     if (numeroMaximo==0){
         alert('Agrega un amigo');
     }else{
-        alert('AMIGO SORTEADO' +listaAmigos[amigoSorteado]);
-        asignarTexto(document.querySelector("#resultado"),'El amigo secreto es' + listaAmigos[amigoSorteado]);
+        //alert('AMIGO SORTEADO' +listaAmigos[amigoSorteado]);
+        result.innerHTML = 'El amigo secreto es ' + listaAmigos[amigoSorteado];
     }
 }
 
