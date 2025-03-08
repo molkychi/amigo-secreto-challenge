@@ -32,6 +32,7 @@ function agregarAmigo(){
 function actualizarLista(){
 
 }
+
 //sortear amigo
 function sortearAmigo(){
     numeroMaximo = listaAmigos.length;
@@ -42,12 +43,6 @@ function sortearAmigo(){
         alert('AMIGO SOO');
         alert('AMIGO SORTEADO' +listaAmigos[amigoSorteado]);
     }
-}
-
-
-//reiniciar juego
-function reiniciarJuego(){
-
 }
 
 //asignar texto
