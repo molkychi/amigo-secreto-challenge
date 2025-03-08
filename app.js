@@ -11,7 +11,7 @@
 //variables
 let listaAmigos = [];
 let numeroMaximo = 0;
-//numeroMaximo=listaAmigos.length();
+let lista=document.querySelector("#listaAmigos");
 
 //agregar amigo
 function agregarAmigo(){
@@ -19,21 +19,23 @@ function agregarAmigo(){
     //Si la caja está vacía, solicita que ingrese un nombre válido
     if(amigo==""){
         alert('Por favor, inserte un nombre');
-        limpiarCaja();
+        document.querySelector('#amigo').value = '';
     }else{
         alert('Lista actualizada');
         listaAmigos.push(amigo);
         actualizarLista();
-        console.log(listaAmigos);
+        //console.log(listaAmigos);
     }
 }
 
 //actualizar lista
 function actualizarLista(){
-    let lista=document.querySelector("#listaAmigos");
-
+    lista.innerHTML="";
     for(i=0;i<listaAmigos.length;i++){
-        console.log(listaAmigos[i]);
+        let nuevoAmigo = document.createElement("li"); //crea elemento tipo li
+        nuevoAmigo.textContent=listaAmigos[i]; //convierte a texto el amigo en lista
+        lista.appendChild(nuevoAmigo); //agrega el amigo a la lista visualmente
+        //console.log('longitud: '+listaAmigos[i]);
     }
 }
 
