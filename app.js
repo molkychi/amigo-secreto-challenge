@@ -30,26 +30,23 @@ function agregarAmigo(){
 
 //actualizar lista
 function actualizarLista(){
+    let lista=document.querySelector("#listaAmigos");
 
+    for(i=0;i<listaAmigos.length;i++){
+        console.log(listaAmigos[i]);
+    }
 }
 
 //sortear amigo
 function sortearAmigo(){
     numeroMaximo = listaAmigos.length;
     let amigoSorteado = Math.floor(Math.random()*numeroMaximo);
+    console.log('amigo sorteado: '+amigoSorteado);
     if (numeroMaximo==0){
         alert('Agrega un amigo');
     }else{
-        alert('AMIGO SOO');
         alert('AMIGO SORTEADO' +listaAmigos[amigoSorteado]);
     }
-}
-
-//asignar texto
-function asignarTexto(elemento,texto){
-    let elementoHTML = document.querySelector(elemento);
-    elementoHTML.innerHTML = texto;
-    return;
 }
 
 //limpiar caja
