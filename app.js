@@ -55,3 +55,9 @@ function sortearAmigo(){
 function limpiarCaja() {
     document.querySelector('#amigo').value = '';
 }
+
+//asignar texto
+function asignarTexto(elemento,texto){
+    let elementoHTML = document.querySelector(elemento);
+    elementoHTML.innerHTML = texto;
+}
