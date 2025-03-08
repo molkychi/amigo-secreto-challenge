@@ -12,7 +12,7 @@
 let listaAmigos = [];
 let numeroMaximo = 0;
 let lista=document.querySelector("#listaAmigos");
-
+let result=document.querySelector("#resultado");
 //agregar amigo
 function agregarAmigo(){
     let amigo = document.querySelector('#amigo').value;
@@ -48,16 +48,11 @@ function sortearAmigo(){
         alert('Agrega un amigo');
     }else{
         alert('AMIGO SORTEADO' +listaAmigos[amigoSorteado]);
+        asignarTexto(document.querySelector("#resultado"),'El amigo secreto es' + listaAmigos[amigoSorteado]);
     }
 }
 
 //limpiar caja
 function limpiarCaja() {
     document.querySelector('#amigo').value = '';
-}
-
-//asignar texto
-function asignarTexto(elemento,texto){
-    let elementoHTML = document.querySelector(elemento);
-    elementoHTML.innerHTML = texto;
 }
