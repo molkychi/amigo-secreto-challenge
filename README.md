@@ -12,9 +12,9 @@ amigos se encuentre vacía, se envía una alerta.
 
 # Índice #
 
-* [Estado-del-proyecto](#Estado-del-proyecto)
-* [Tecnologías-utilizadas](#Tecnologías-utilizadas)
-* [Personas-Desarrolladores del Proyecto](#Desarrolladores)
+* [Estado del proyecto](#Estado-del-proyecto)
+* [Tecnologías utilizadas](#Tecnologías-utilizadas)
+* [Desarrolladores del Proyecto](#Desarrolladores)
 
 
 # Estado del proyecto #
