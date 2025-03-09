@@ -12,12 +12,12 @@ amigos se encuentre vacía, se envía una alerta.
 
 # Índice #
 
-* [Estado-del-proyecto](#:white_check_mark:-Estado-del-proyecto-:white_check_mark:)
+* [Estado-del-proyecto](#Estado-del-proyecto)
 * [Tecnologías-utilizadas](#Tecnologías-utilizadas)
-* [Personas-Desarrolladores del Proyecto](#:computer:-Desarrolladores)
+* [Personas-Desarrolladores del Proyecto](#Desarrolladores)
 
 
-# :white_check_mark: Estado del proyecto :white_check_mark: #
+# Estado del proyecto #
 Terminado
 
 # Tecnologías utilizadas #
@@ -25,5 +25,5 @@ Terminado
 - HTML
 - CSS
 
-# :computer: Desarrolladores #
+# Desarrolladores #
 Por Alexa Quero
