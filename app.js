@@ -23,10 +23,8 @@ function agregarAmigo(){
         alert('Por favor, inserte un nombre');
         document.querySelector('#amigo').value = '';
     }else{
-        alert('Lista actualizada');
         listaAmigos.push(amigo);
         actualizarLista();
-        //console.log(listaAmigos);
     }
 }
 
@@ -37,7 +35,6 @@ function actualizarLista(){
         let nuevoAmigo = document.createElement("li"); //crea elemento tipo li
         nuevoAmigo.textContent=listaAmigos[i]; //convierte a texto el amigo en lista
         lista.appendChild(nuevoAmigo); //agrega el amigo a la lista visualmente
-        //console.log('longitud: '+listaAmigos[i]);
     }
 }
 
@@ -45,11 +42,10 @@ function actualizarLista(){
 function sortearAmigo(){
     numeroMaximo = listaAmigos.length;
     amigoSorteado = Math.floor(Math.random()*numeroMaximo);
-    //console.log('amigo sorteado: '+amigoSorteado);
     if (numeroMaximo==0){
         alert('Agrega un amigo');
     }else{
-        //alert('AMIGO SORTEADO' +listaAmigos[amigoSorteado]);
+        lista.innerHTML="";
         result.innerHTML = 'El amigo secreto es ' + listaAmigos[amigoSorteado];
     }
 }
