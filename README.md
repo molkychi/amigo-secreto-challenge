@@ -10,17 +10,17 @@ alerta.
 En caso de querer realizar un sorteo, pero la lista de 
 amigos se encuentre vacía, se envía una alerta.
 
-#Índice
+# Índice #
 
-*[Estado del proyecto](#Estado del proyecto)
-*[Tecnologías utilizadas](#Tecnologías utilizadas)
-*[Personas-Desarrolladores del Proyecto](#Desarrolladores)
+* [Estado-del-proyecto](#Estado-del-proyecto)
+* [Tecnologías-utilizadas](#Tecnologías-utilizadas)
+* [Personas-Desarrolladores del Proyecto](#Desarrolladores)
 
 
 # :white_check_mark: Estado del proyecto :white_check_mark: #
 Terminado
 
-# :white_check_mark:Tecnologías utilizadas #
+# Tecnologías utilizadas #
 - Javascript
 - HTML
 - CSS
