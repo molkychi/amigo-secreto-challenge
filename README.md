@@ -10,19 +10,20 @@ alerta.
 En caso de querer realizar un sorteo, pero la lista de 
 amigos se encuentre vacía, se envía una alerta.
 
-##Índice
-*[Estado del proyecto](#Estado-del-proyecto)
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
+#Índice
+
+*[Estado del proyecto](#Estado del proyecto)
+*[Tecnologías utilizadas](#Tecnologías utilizadas)
+*[Personas-Desarrolladores del Proyecto](#Desarrolladores)
 
 
-# Estado-del-proyecto #
+# :white_check_mark: Estado del proyecto :white_check_mark: #
 Terminado
 
-# tecnologías-utilizadas #
+# :white_check_mark:Tecnologías utilizadas #
 - Javascript
 - HTML
 - CSS
 
-# personas-desarrolladores #
+# :computer: Desarrolladores #
 Por Alexa Quero
