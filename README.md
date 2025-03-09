@@ -12,9 +12,9 @@ amigos se encuentre vacía, se envía una alerta.
 
 # Índice #
 
-* [Estado-del-proyecto](#Estado-del-proyecto)
+* [Estado-del-proyecto](#:white_check_mark:-Estado-del-proyecto-:white_check_mark:)
 * [Tecnologías-utilizadas](#Tecnologías-utilizadas)
-* [Personas-Desarrolladores del Proyecto](#Desarrolladores)
+* [Personas-Desarrolladores del Proyecto](#:computer:-Desarrolladores)
 
 
 # :white_check_mark: Estado del proyecto :white_check_mark: #
